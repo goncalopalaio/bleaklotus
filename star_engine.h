@@ -1,3 +1,4 @@
+#include "standard_libs.h"
 
 typedef struct RenderInfo {
 	GLuint vao;

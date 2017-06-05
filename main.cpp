@@ -1,10 +1,6 @@
-#include <stdio.h>
-
-#define GLFW_INCLUDE_GLCOREARB
-#include <GLFW/glfw3.h>
-
-#include <string.h>
-#include <stdlib.h>
+#include "standard_libs.h"
+#include "graphics_libs.h"
+#include "constants.h"
 
 #include "gplib.h"
 #include "stb_image.h"
@@ -38,7 +34,7 @@ typedef struct KeyboardState {
 
 
 
-#include "plane_loader.h"
+#include "plane_generator.h"
 #include "star_engine.h"
 
 

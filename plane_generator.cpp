@@ -1,5 +1,9 @@
-#define PLANE_N_SQUARES 100
-#define PLANE_SIDE_SIZE 1100
+#include "plane_generator.h"
+#include "maratis_math.h"
+#include "standard_libs.h"
+#include "gplib.h"
+
+
 float sample_plane_height(float x, float z, float max) {
 	return -115 * cos(1100 * x/max) - 115 * sin(1100 * z/max);
 }
